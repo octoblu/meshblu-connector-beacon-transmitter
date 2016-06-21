@@ -1,0 +1,37 @@
+title: "Default Configuration"
+type: "object"
+properties:
+  options:
+    title: "Options"
+    type: "object"
+    properties:
+      advertiseImmediately:
+        title: "Advertise Immediately"
+        type: "boolean"
+        default: true
+      uuid:
+        title: "UUID"
+        type: "string"
+        default: "00000000-0000-0000-0000-000000000000"
+      major:
+        title: "Major (0 - 65535)"
+        type: "integer"
+        default: 0
+      minor:
+        title: "Minor (0 - 65535)"
+        type: "integer"
+        default: 0
+      measuredPower:
+        title: "measuredPower (-59 -128 -127 - measured RSSI at 1 meter)"
+        type: "integer"
+        default: -59
+    required: [
+      "advertiseImmediately"
+      "uuid"
+      "major"
+      "minor"
+      "measuredPower"
+    ]
+required: [
+  "options"
+]

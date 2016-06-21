@@ -1,0 +1,7 @@
+angular: [
+  { key: "options.advertiseImmediately" }
+  { key: "options.uuid" }
+  { key: "options.major" }
+  { key: "options.minor" }
+  { key: "options.measuredPower" }
+]
