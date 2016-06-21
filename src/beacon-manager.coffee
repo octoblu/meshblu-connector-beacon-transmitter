@@ -1,5 +1,11 @@
 async   = require 'async'
-Bleacon = require '@octoblu/bleacon'
+try
+  if process.env.SKIP_REQUIRE_BLEACON == 'true'
+    Bleacon = {}
+  else
+    Bleacon = require '@octoblu/bleacon'
+catch error
+  console.error error
 
 class BeaconManager
   constructor: ->

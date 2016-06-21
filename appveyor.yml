@@ -18,6 +18,8 @@ install:
   - npm install --build-from-source
 build: off
 test_script:
+  - ps: >-
+    $env:SKIP_REQUIRE_BLEACON="true"
   - npm test
 before_deploy:
   - ps: >-
