@@ -1,11 +1,14 @@
 # meshblu-connector-beacon-transmitter
 
+[![Build Status](https://travis-ci.org/octoblu/meshblu-connector-beacon-transmitter.svg?branch=master)](https://travis-ci.org/octoblu/meshblu-connector-beacon-transmitter)
+[![Test Coverage](https://codecov.io/gh/octoblu/meshblu-connector-beacon-transmitter/branch/master/graph/badge.svg)](https://codecov.io/gh/octoblu/meshblu-connector-beacon-transmitter)
 [![Dependency status](http://img.shields.io/david/octoblu/meshblu-connector-beacon-transmitter.svg?style=flat)](https://david-dm.org/octoblu/meshblu-connector-beacon-transmitter)
 [![devDependency Status](http://img.shields.io/david/dev/octoblu/meshblu-connector-beacon-transmitter.svg?style=flat)](https://david-dm.org/octoblu/meshblu-connector-beacon-transmitter#info=devDependencies)
-[![Build Status](http://img.shields.io/travis/octoblu/meshblu-connector-beacon-transmitter.svg?style=flat&branch=master)](https://travis-ci.org/octoblu/meshblu-connector-beacon-transmitter)
 [![Slack Status](http://community-slack.octoblu.com/badge.svg)](http://community-slack.octoblu.com)
 
 [![NPM](https://nodei.co/npm/meshblu-connector-beacon-transmitter.svg?style=flat)](https://npmjs.org/package/meshblu-connector-beacon-transmitter)
+[![Dependency status](http://img.shields.io/david/octoblu/meshblu-connector-beacon-transmitter.svg?style=flat)](https://david-dm.org/octoblu/meshblu-connector-beacon-transmitter)
+
 
 ## Installing
 
